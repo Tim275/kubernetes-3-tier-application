@@ -1,5 +1,6 @@
 <h2>  Architecture Diagramm <h2>
 
+![image](https://github.com/Tim275/kubernetes-3-tier-application/assets/117520669/180c726a-2e89-4d3f-8663-23842a355b7d)
 
 <h2> Project introduction <h2>
 
