@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: quizapp.cloudcorehub.com
+    - host: Tim275.com
       http:
         paths:
           - path: /api/questions

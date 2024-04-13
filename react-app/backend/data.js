@@ -52,11 +52,11 @@ module.exports = {
     //   ans: 1,
     // },
     // {
-    //   question: "Who interpreted dreams in Egypt?",
+    //   question: "ssss?",
     //   option1: "ttt",
     //   option2: "aaa",
     //   option3: "sss",
-    //   option4: "Pharaoh",
+    //   option4: "ssss",
     //   ans: 1,
     // },
     // Add comments to deactivate additional questions

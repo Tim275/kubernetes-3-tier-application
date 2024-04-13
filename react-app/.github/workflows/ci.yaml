@@ -2,7 +2,7 @@ name: React.js CI
 
 on:
   pull_request:
-    branches: "master"
+    branches: "main"
 
 jobs:
   frontend-test:
@@ -101,7 +101,6 @@ jobs:
             -Dsonar.sources=.
             -Dsonar.verbose=true
           
-
   frontend-security:
     needs: frontend-test
     runs-on: ubuntu-latest
