@@ -9,4 +9,4 @@ End-to-End DevSecOps Kubernetes Project ! In this comprehensive project, i go th
 
 <h1> Overview</h1>
 
-![image](https://github.com/Tim275/kubernetes-3-tier-application/assets/117520669/b39e08af-ca7e-4ed6-b5b8-366fd384f029)
+![image](https://github.com/Tim275/kubernetes-3-tier-application/assets/117520669/12849e57-2a58-4af1-a7fb-f1b3112e797e)
