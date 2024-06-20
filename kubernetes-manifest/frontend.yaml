@@ -17,17 +17,13 @@ spec:
     spec:
       containers:
       - name: frontend
-<<<<<<< HEAD
+      
         image: timour259/frontend-jslocal:latest
         env:
         - name: VITE_REACT_APP_API_URL
           value: "http://backend-service.quiz.svc.cluster.local:3000/api/questions"
-=======
-        image: timour259/frontend-js:latest
-        env:
-        - name: VITE_REACT_APP_API_URL
-          value: "http://timourtest.com/api/questions"
->>>>>>> 46cc5aecfff8d8d40ae9a68c8bd5461e4da93b4f
+
+
         ports:
         - containerPort: 8080
 ---
