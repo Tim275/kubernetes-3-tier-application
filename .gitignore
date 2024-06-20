@@ -5,3 +5,6 @@ eval $(ssh-agent -s)
 eval $(ssh-agent -s).pub
 Connect backend to MongoDb.docx
 Unbenanntes Diagramm.draw.io
+notes
+
+
