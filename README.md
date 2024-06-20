@@ -8,9 +8,10 @@ End-to-End DevSecOps Kubernetes Project ! In this comprehensive project, i go th
 
 <h1> Reminder </h1>
 
-Started it again locally. And Took some pictures about the application. About the code its just a simple Quiz application which fetches Data from a mongo db Table :).
+Started it again locally. Lost the live ones. And Took some pictures about the application. About the code its just a simple Quiz application which fetches Data from a mongo db Table :) in a k8 cluster.
 
-<h1> Architecture Diagramm</h1>
+
+<h1> In Gitops (EKS) <h1>
 
 ![image](https://github.com/Tim275/kubernetes-3-tier-application/assets/117520669/12849e57-2a58-4af1-a7fb-f1b3112e797e)
 
@@ -18,6 +19,7 @@ Started it again locally. And Took some pictures about the application. About th
 <h2> Pics <h2>
 
 ![alt text](componentslocal.png)
+
 
 ![alt text](frontend.png)
 ![alt text](backend.png)
