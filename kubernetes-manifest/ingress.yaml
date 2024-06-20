@@ -10,7 +10,11 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
+<<<<<<< HEAD
     - host: quizapp.local ##see host data in /etc/hosts
+=======
+    - host: timourtest.com
+>>>>>>> 46cc5aecfff8d8d40ae9a68c8bd5461e4da93b4f
       http:
         paths:
           - path: /api/questions
