@@ -26,9 +26,9 @@ const Quiz = () => {
         try {
           // const apiUrl = import.meta.env.VITE_REACT_APP_API_URL || 'http://localhost:3000/api/questions';
           //const apiUrl = "http://quizapp.cloudcorehub.com/api/questions"
-          // const apiUrl = "http://Tim275/api/questions";
-          const apiUrl = "http://localhost:3000/api/questions";
-
+          // const apiUrl = "http://Tim275/api/questions"; // for k8
+       //   const apiUrl = "http://localhost:3000/api/questions"; // for local deployment
+       const apiUrl = "http://backend-service.quiz.svc.cluster.local:3000/api/questions";
           const response = await fetch(apiUrl);
           if (!response.ok) throw new Error("Failed to fetch");
           let questions = await response.json();

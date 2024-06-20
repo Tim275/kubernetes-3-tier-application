@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: quizapp.cloudcorehub.com
+    - host: quizapp.local ##see host data in /etc/hosts
       http:
         paths:
           - path: /api/questions

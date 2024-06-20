@@ -7,6 +7,8 @@ const { data } = require("./data");
 
 const mongoURI = process.env.MONGO_URI;
 // const mongoURI = 'mongodb+srv://${username}:${password}@cluster0.3x0s7hh.mongodb.net/?appName=mongosh+2.1.5';
+const mongoURL = 'mongodb+srv://admin:IcbuDPlyS4NgZbsl@cluster0.zf7udef.mongodb.net/';
+
 
 mongoose
   .connect(mongoURI)

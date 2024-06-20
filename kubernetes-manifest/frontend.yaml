@@ -7,11 +7,6 @@ metadata:
     app: frontend
 spec:
   replicas: 1
-  strategy:
-    type: RollingUpdate
-    rollingUpdate:
-      maxSurge: 1
-      maxUnavailable: 25%
   selector:
     matchLabels:
       app: frontend
@@ -22,10 +17,10 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: ogochukwuozotta/frontend-js:latest
+        image: timour259/frontend-jslocal:latest
         env:
         - name: VITE_REACT_APP_API_URL
-          value: "http://quizapp.cloudcorehub.com/api/questions"
+          value: "http://backend-service.quiz.svc.cluster.local:3000/api/questions"
         ports:
         - containerPort: 8080
 ---
@@ -40,4 +35,5 @@ spec:
   ports:
   - port: 8080
     protocol: TCP
-  type: ClusterIP
+    nodePort: 30080  # edited
+  type: NodePort  # nodeport lokal, cluster ip in
