@@ -18,8 +18,6 @@ Started it again locally. Lost the live ones. And Took some pictures about the a
 
 <h2> Pics <h2>
 
-![alt text](componentslocal.png)
-
-
-![alt text](frontend.png)
-![alt text](backend.png)
+![alt text](complocal.png)
+![alt text](front.png)
+![alt text](back.png)
