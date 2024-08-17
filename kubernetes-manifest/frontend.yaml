@@ -16,16 +16,13 @@ spec:
         app: frontend
     spec:
       containers:
-      - name: frontend
-      
-        image: timour259/frontend-jslocal:latest
-        env:
-        - name: VITE_REACT_APP_API_URL
-          value: "http://backend-service.quiz.svc.cluster.local:3000/api/questions"
-
-
-        ports:
-        - containerPort: 8080
+        - name: frontend
+          image: timour259/frontend-jslocal:latest
+          env:
+            - name: VITE_REACT_APP_API_URL
+              value: "http://127.0.0.1:59865/api/questions"
+          ports:
+            - containerPort: 8080
 ---
 apiVersion: v1
 kind: Service
@@ -36,7 +33,7 @@ spec:
   selector:
     app: frontend
   ports:
-  - port: 8080
-    protocol: TCP
-    nodePort: 30080  # edited
-  type: NodePort  # nodeport lokal, cluster ip in
+    - port: 8080
+      protocol: TCP
+      nodePort: 30080 # edited
+  type: NodePort # nodeport lokal, cluster ip in
